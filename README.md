@@ -22,6 +22,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Docker
+## Docker with webpack-dev-server
 
-Run `docker build -t fischermatte/angular-docker .`
+Run `docker build -t fischermatte/angular-docker -f dockerfile.webpack-dev-server .`
